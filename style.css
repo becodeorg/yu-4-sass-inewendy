@@ -1,22 +1,64 @@
 body {
+  width: 70%;
+  margin: 0 auto;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body nav {
+  margin-top: 12%;
+}
+
+body nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 5%;
+  padding: 2%;
+}
+
+body nav .blue {
+  color: darkblue;
+}
+
+body nav .red {
+  color: darkred;
+}
+
+body nav a:hover {
+  background-color: black;
+  color: white;
 }
 
 body section {
   width: 70%;
-  margin: 0 auto;
+}
+
+body section h2 {
+  background-color: cornflowerblue;
+  -webkit-box-shadow: 10px 10px 6px grey;
+          box-shadow: 10px 10px 6px grey;
 }
 
 body section img {
   width: 50%;
 }
 
-body article {
-  width: 70%;
-  margin: 0 auto;
+body article h2 {
+  background-color: cornflowerblue;
+  -webkit-box-shadow: 20px 20px 50px grey;
+          box-shadow: 20px 20px 50px grey;
 }
 
 body article img {
   width: 50%;
+}
+
+body article p.box {
+  -webkit-box-shadow: 20px 20px 50px greenyellow;
+          box-shadow: 20px 20px 50px greenyellow;
+}
+
+body footer {
+  background-color: cornflowerblue;
+  padding: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
