@@ -1,4 +1,22 @@
 body {
-  background-color: aqua;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+body section img {
+  width: 50%;
+}
+
+body article {
+  width: 70%;
+  margin: 0 auto;
+}
+
+body article img {
+  width: 50%;
 }
 /*# sourceMappingURL=style.css.map */
