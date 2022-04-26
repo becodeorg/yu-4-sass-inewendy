@@ -35,7 +35,6 @@ body section {
 body section h2 {
   background-color: cornflowerblue;
   -webkit-box-shadow: 10px 10px 6px grey;
-          box-shadow: 10px 10px 6px grey;
 }
 
 body section img {
@@ -44,8 +43,6 @@ body section img {
 
 body article h2 {
   background-color: cornflowerblue;
-  -webkit-box-shadow: 20px 20px 50px grey;
-          box-shadow: 20px 20px 50px grey;
 }
 
 body article img {
@@ -53,8 +50,6 @@ body article img {
 }
 
 body article p.box {
-  -webkit-box-shadow: 20px 20px 50px greenyellow;
-          box-shadow: 20px 20px 50px greenyellow;
 }
 
 body footer {

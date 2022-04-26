@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC,KAAK,AAAA,KAAK;AACjB,IAAI,CAAA;EACA,KAAK,EAAE,GAAG;CACb",
+    "sources": [
+        "red.scss"
+    ],
+    "names": [],
+    "file": "red.css"
+}
