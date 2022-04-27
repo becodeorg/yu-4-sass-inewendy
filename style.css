@@ -36,8 +36,8 @@ body section {
 
 body section h2 {
   background-color: cornflowerblue;
-  -webkit-box-shadow: 20px 20px 0.75 grey;
-          box-shadow: 20px 20px 0.75 grey;
+  -webkit-box-shadow: 10px 10px 19px rgba(208, 27, 27, 0.5);
+  box-shadow: 10px 10px 19px rgba(208, 27, 27, 0.5);
 }
 
 body section img {
@@ -46,12 +46,17 @@ body section img {
 
 body article h2 {
   background-color: cornflowerblue;
-  -webkit-box-shadow: '$shadow';
-          box-shadow: '$shadow';
+  -webkit-box-shadow: 10px 10px 19px rgba(208, 27, 27, 0.5);
+  box-shadow: 10px 10px 19px rgba(208, 27, 27, 0.5);
 }
 
 body article img {
   width: 50%;
+}
+
+body article p.box {
+  -webkit-box-shadow: 10px 10px 19px rgba(208, 27, 27, 0.5);
+  box-shadow: 10px 10px 19px rgba(208, 27, 27, 0.5);
 }
 
 body footer {

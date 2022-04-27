@@ -1,5 +1,11 @@
 @use 'base';
-
+@mixin box-shadow($shadowspecs)
+{
+    -webkit-box-shadow: $shadowspecs;
+    -moz-box-shadow: $shadowspecs;
+    box-shadow: $shadowspecs;
+}
+$shadowspecs: 10px 10px 19px rgba(208, 27, 27, 0.5);
 $size: 3em;
 
 body
@@ -32,7 +38,7 @@ body
 
         h2{
             background-color: cornflowerblue;
-            box-shadow: ;
+            @include box-shadow($shadowspecs);
         }
         img{
             width: 50%;
@@ -41,12 +47,13 @@ body
     article {
         h2{
             background-color: cornflowerblue;
-            shadow: $shadowspecs;
+            @include box-shadow($shadowspecs);
         }
         img{
             width: 50%;
         }
         p.box{
+            @include box-shadow($shadowspecs);
 
         }
     }
