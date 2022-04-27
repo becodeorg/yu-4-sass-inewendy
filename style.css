@@ -1,4 +1,6 @@
+@use 'base';
 body {
+  color: black;
   width: 70%;
   margin: 0 auto;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -34,7 +36,8 @@ body section {
 
 body section h2 {
   background-color: cornflowerblue;
-  -webkit-box-shadow: 10px 10px 6px grey;
+  -webkit-box-shadow: 20px 20px 0.75 grey;
+          box-shadow: 20px 20px 0.75 grey;
 }
 
 body section img {
@@ -43,17 +46,16 @@ body section img {
 
 body article h2 {
   background-color: cornflowerblue;
+  -webkit-box-shadow: '$shadow';
+          box-shadow: '$shadow';
 }
 
 body article img {
   width: 50%;
 }
 
-body article p.box {
-}
-
 body footer {
   background-color: cornflowerblue;
-  padding: 2rem;
+  padding: 3em;
 }
 /*# sourceMappingURL=style.css.map */

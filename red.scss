@@ -1,4 +1,7 @@
-import style.scss
+@import 'style.scss';
 body{
-    color: red;
+    background-color: red;
+    img{
+        width: 30%;
+    }
 }

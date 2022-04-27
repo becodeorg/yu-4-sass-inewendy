@@ -1,9 +1,7 @@
-@mixin shadow ($shadowspecs: 10px 10px 10px -4px rgba(255, 255, 255, 0.75)){
-    -webkit-box-shadow: $shadowspecs;
-    -moz-box-shadow: $shadowspecs;
-    box-shadow: $shadowspecs;
-}
-$padding: 3rem;
+@use 'base';
+
+$size: 3em;
+
 body
 {
     color: black;
@@ -34,7 +32,7 @@ body
 
         h2{
             background-color: cornflowerblue;
-            box-shadow: $shadowspecs;
+            box-shadow: ;
         }
         img{
             width: 50%;
@@ -43,18 +41,17 @@ body
     article {
         h2{
             background-color: cornflowerblue;
-            box-shadow: $shadowspecs;
+            shadow: $shadowspecs;
         }
         img{
             width: 50%;
         }
         p.box{
-            box-shadow: $shadowspecs;
 
         }
     }
     footer{
         background-color: cornflowerblue;
-        padding: $padding;
+        padding: $size;
     }
 }
